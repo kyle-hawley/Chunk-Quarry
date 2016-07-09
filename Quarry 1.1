@@ -164,4 +164,4 @@ mineChunk()
 endTime = os.clock()
 
 shell.run("clear")
-print("Mined in " .. math.floor((endTime - startTime) / 3600 ) .. "h " .. math.floor((endTime - startTime) / 60) .. "m " .. (endTime - startTime) % 60 .. "s.")
+print("Mined in " .. math.floor((endTime - startTime) / 3600 ) .. "h " .. math.floor((endTime - startTime) % 3600) .. "m " .. (endTime - startTime) % 60 .. "s.")
