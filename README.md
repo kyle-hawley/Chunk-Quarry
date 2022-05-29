@@ -1,2 +1,2 @@
 # Chunk-Quarry
-A Computer Craft turtle chunk quarry for early game resource generation.
+The first proper computer program I ever wrote. Too nostalgic to delete it. 
